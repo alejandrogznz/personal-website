@@ -1,12 +1,11 @@
 import './App.css';
+import HomePage from './components/HomePage';
+import Me from './components/Me.js'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>Hello</p>
-        <p>Ranch Dressing</p>
-      </header>
+        <HomePage></HomePage>
     </div>
   );
 }
